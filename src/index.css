@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-col::-webkit-scrollbar {
+  width: 8px;
+}
+
+.flex-col::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+
+.flex-col::-webkit-scrollbar-track {
+  background: transparent;
+}
